@@ -1,18 +1,8 @@
 language: python
-python: 3.5
+python: 3.6
 env:
   matrix:
-    - TOXENV=py26
-    - TOXENV=py27
-    - TOXENV=py33
-    - TOXENV=py32
-    - TOXENV=py34
-    - TOXENV=py35
-    - TOXENV=sphinx1.0
-    - TOXENV=sphinx1.1
-    - TOXENV=sphinx1.2
-    - TOXENV=blockdiag_dev
-    - TOXENV=coverage
+    - TOXENV=py36
 cache:
   directories:
     - $HOME/.cache/pip
